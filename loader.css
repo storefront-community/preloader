@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 92px;
+  width: 128px;
+}
+
+.circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  margin: 0 4px;
+}
+
+.circle-salad {
+  border: 5px solid #2ecc71;
+}
+
+.circle-ketchup {
+  border: 5px solid #FC1460;
+}
+
+.circle-mustard {
+  border: 5px solid #f39c12;
+}
